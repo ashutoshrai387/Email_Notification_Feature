@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\EmailNotificationFeature",
+    "\\EmailNotificationFeature\\Services",
+    "\\EmailNotificationFeature\\Services\\EmailNotificationService"
+  ],
+  "SelectedNode": "\\EmailNotificationFeature.sln",
+  "PreviewInSolutionExplorer": false
+}

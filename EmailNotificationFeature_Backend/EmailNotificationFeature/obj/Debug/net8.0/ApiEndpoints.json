@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "EmailNotificationFeature.Controllers.EmailNotificationController",
+    "Method": "SendEmail",
+    "RelativePath": "api/EmailNotification",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "EmailNotificationFeature.Models.EmailDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

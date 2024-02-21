@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Ugl5c2qP55K4uYKj7Y5Wmt1PzWB4gpWswJ/LKp5guPQ=",
+  "Source": "EmailNotificationFeature",
+  "BasePath": "_content/EmailNotificationFeature",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
