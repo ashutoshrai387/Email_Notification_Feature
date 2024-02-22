@@ -1,18 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\promact\\Desktop\\Project\\Week 2 Task 1\\EmailNotificationFeature\\",
+  "WorkspaceRootPath": "C:\\Users\\promact\\Desktop\\Project\\Week 2 Task 1\\Email_Notification_Feature\\EmailNotificationFeature_Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7CE08379-D6D6-4414-8D0C-4E1FB71D86FC}|EmailNotificationFeature\\EmailNotificationFeature.csproj|c:\\users\\promact\\desktop\\project\\week 2 task 1\\emailnotificationfeature\\emailnotificationfeature\\services\\emailnotificationservice\\emailnotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7CE08379-D6D6-4414-8D0C-4E1FB71D86FC}|EmailNotificationFeature\\EmailNotificationFeature.csproj|c:\\users\\promact\\desktop\\project\\week 2 task 1\\email_notification_feature\\emailnotificationfeature_backend\\emailnotificationfeature\\services\\emailnotificationservice\\emailnotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CE08379-D6D6-4414-8D0C-4E1FB71D86FC}|EmailNotificationFeature\\EmailNotificationFeature.csproj|solutionrelative:emailnotificationfeature\\services\\emailnotificationservice\\emailnotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CE08379-D6D6-4414-8D0C-4E1FB71D86FC}|EmailNotificationFeature\\EmailNotificationFeature.csproj|c:\\users\\promact\\desktop\\project\\week 2 task 1\\emailnotificationfeature\\emailnotificationfeature\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7CE08379-D6D6-4414-8D0C-4E1FB71D86FC}|EmailNotificationFeature\\EmailNotificationFeature.csproj|solutionrelative:emailnotificationfeature\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{7CE08379-D6D6-4414-8D0C-4E1FB71D86FC}|EmailNotificationFeature\\EmailNotificationFeature.csproj|c:\\users\\promact\\desktop\\project\\week 2 task 1\\email_notification_feature\\emailnotificationfeature_backend\\emailnotificationfeature\\controllers\\emailnotificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CE08379-D6D6-4414-8D0C-4E1FB71D86FC}|EmailNotificationFeature\\EmailNotificationFeature.csproj|solutionrelative:emailnotificationfeature\\controllers\\emailnotificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CE08379-D6D6-4414-8D0C-4E1FB71D86FC}|EmailNotificationFeature\\EmailNotificationFeature.csproj|c:\\users\\promact\\desktop\\project\\week 2 task 1\\emailnotificationfeature\\emailnotificationfeature\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7CE08379-D6D6-4414-8D0C-4E1FB71D86FC}|EmailNotificationFeature\\EmailNotificationFeature.csproj|c:\\users\\promact\\desktop\\project\\week 2 task 1\\email_notification_feature\\emailnotificationfeature_backend\\emailnotificationfeature\\models\\emaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CE08379-D6D6-4414-8D0C-4E1FB71D86FC}|EmailNotificationFeature\\EmailNotificationFeature.csproj|solutionrelative:emailnotificationfeature\\models\\emaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CE08379-D6D6-4414-8D0C-4E1FB71D86FC}|EmailNotificationFeature\\EmailNotificationFeature.csproj|c:\\users\\promact\\desktop\\project\\week 2 task 1\\email_notification_feature\\emailnotificationfeature_backend\\emailnotificationfeature\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CE08379-D6D6-4414-8D0C-4E1FB71D86FC}|EmailNotificationFeature\\EmailNotificationFeature.csproj|solutionrelative:emailnotificationfeature\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CE08379-D6D6-4414-8D0C-4E1FB71D86FC}|EmailNotificationFeature\\EmailNotificationFeature.csproj|c:\\users\\promact\\desktop\\project\\week 2 task 1\\email_notification_feature\\emailnotificationfeature_backend\\emailnotificationfeature\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7CE08379-D6D6-4414-8D0C-4E1FB71D86FC}|EmailNotificationFeature\\EmailNotificationFeature.csproj|solutionrelative:emailnotificationfeature\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,15 +30,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "EmailDto.cs",
+              "DocumentMoniker": "C:\\Users\\promact\\Desktop\\Project\\Week 2 Task 1\\Email_Notification_Feature\\EmailNotificationFeature_Backend\\EmailNotificationFeature\\Models\\EmailDto.cs",
+              "RelativeDocumentMoniker": "EmailNotificationFeature\\Models\\EmailDto.cs",
+              "ToolTip": "C:\\Users\\promact\\Desktop\\Project\\Week 2 Task 1\\Email_Notification_Feature\\EmailNotificationFeature_Backend\\EmailNotificationFeature\\Models\\EmailDto.cs",
+              "RelativeToolTip": "EmailNotificationFeature\\Models\\EmailDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-22T08:59:59.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmailNotificationController.cs",
+              "DocumentMoniker": "C:\\Users\\promact\\Desktop\\Project\\Week 2 Task 1\\Email_Notification_Feature\\EmailNotificationFeature_Backend\\EmailNotificationFeature\\Controllers\\EmailNotificationController.cs",
+              "RelativeDocumentMoniker": "EmailNotificationFeature\\Controllers\\EmailNotificationController.cs",
+              "ToolTip": "C:\\Users\\promact\\Desktop\\Project\\Week 2 Task 1\\Email_Notification_Feature\\EmailNotificationFeature_Backend\\EmailNotificationFeature\\Controllers\\EmailNotificationController.cs",
+              "RelativeToolTip": "EmailNotificationFeature\\Controllers\\EmailNotificationController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAEAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-22T08:55:19.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\promact\\Desktop\\Project\\Week 2 Task 1\\EmailNotificationFeature\\EmailNotificationFeature\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\promact\\Desktop\\Project\\Week 2 Task 1\\Email_Notification_Feature\\EmailNotificationFeature_Backend\\EmailNotificationFeature\\Program.cs",
               "RelativeDocumentMoniker": "EmailNotificationFeature\\Program.cs",
-              "ToolTip": "C:\\Users\\promact\\Desktop\\Project\\Week 2 Task 1\\EmailNotificationFeature\\EmailNotificationFeature\\Program.cs",
+              "ToolTip": "C:\\Users\\promact\\Desktop\\Project\\Week 2 Task 1\\Email_Notification_Feature\\EmailNotificationFeature_Backend\\EmailNotificationFeature\\Program.cs",
               "RelativeToolTip": "EmailNotificationFeature\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -39,13 +73,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\promact\\Desktop\\Project\\Week 2 Task 1\\EmailNotificationFeature\\EmailNotificationFeature\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\promact\\Desktop\\Project\\Week 2 Task 1\\Email_Notification_Feature\\EmailNotificationFeature_Backend\\EmailNotificationFeature\\appsettings.json",
               "RelativeDocumentMoniker": "EmailNotificationFeature\\appsettings.json",
-              "ToolTip": "C:\\Users\\promact\\Desktop\\Project\\Week 2 Task 1\\EmailNotificationFeature\\EmailNotificationFeature\\appsettings.json",
+              "ToolTip": "C:\\Users\\promact\\Desktop\\Project\\Week 2 Task 1\\Email_Notification_Feature\\EmailNotificationFeature_Backend\\EmailNotificationFeature\\appsettings.json",
               "RelativeToolTip": "EmailNotificationFeature\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAgAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-02-21T10:55:40.932Z",
               "EditorCaption": ""
@@ -54,11 +88,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "EmailNotificationService.cs",
-              "DocumentMoniker": "C:\\Users\\promact\\Desktop\\Project\\Week 2 Task 1\\EmailNotificationFeature\\EmailNotificationFeature\\Services\\EmailNotificationService\\EmailNotificationService.cs",
+              "DocumentMoniker": "C:\\Users\\promact\\Desktop\\Project\\Week 2 Task 1\\Email_Notification_Feature\\EmailNotificationFeature_Backend\\EmailNotificationFeature\\Services\\EmailNotificationService\\EmailNotificationService.cs",
               "RelativeDocumentMoniker": "EmailNotificationFeature\\Services\\EmailNotificationService\\EmailNotificationService.cs",
-              "ToolTip": "C:\\Users\\promact\\Desktop\\Project\\Week 2 Task 1\\EmailNotificationFeature\\EmailNotificationFeature\\Services\\EmailNotificationService\\EmailNotificationService.cs",
+              "ToolTip": "C:\\Users\\promact\\Desktop\\Project\\Week 2 Task 1\\Email_Notification_Feature\\EmailNotificationFeature_Backend\\EmailNotificationFeature\\Services\\EmailNotificationService\\EmailNotificationService.cs",
               "RelativeToolTip": "EmailNotificationFeature\\Services\\EmailNotificationService\\EmailNotificationService.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAgwBEAAAAwAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-21T06:49:21.628Z",
               "EditorCaption": ""

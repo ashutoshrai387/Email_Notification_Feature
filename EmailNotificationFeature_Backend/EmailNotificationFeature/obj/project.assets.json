@@ -781,11 +781,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\promact\\Desktop\\Project\\Week 2 Task 1\\EmailNotificationFeature\\EmailNotificationFeature\\EmailNotificationFeature.csproj",
+      "projectUniqueName": "C:\\Users\\promact\\Desktop\\Project\\Week 2 Task 1\\Email_Notification_Feature\\EmailNotificationFeature_Backend\\EmailNotificationFeature\\EmailNotificationFeature.csproj",
       "projectName": "EmailNotificationFeature",
-      "projectPath": "C:\\Users\\promact\\Desktop\\Project\\Week 2 Task 1\\EmailNotificationFeature\\EmailNotificationFeature\\EmailNotificationFeature.csproj",
+      "projectPath": "C:\\Users\\promact\\Desktop\\Project\\Week 2 Task 1\\Email_Notification_Feature\\EmailNotificationFeature_Backend\\EmailNotificationFeature\\EmailNotificationFeature.csproj",
       "packagesPath": "C:\\Users\\promact\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\promact\\Desktop\\Project\\Week 2 Task 1\\EmailNotificationFeature\\EmailNotificationFeature\\obj\\",
+      "outputPath": "C:\\Users\\promact\\Desktop\\Project\\Week 2 Task 1\\Email_Notification_Feature\\EmailNotificationFeature_Backend\\EmailNotificationFeature\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\promact\\AppData\\Roaming\\NuGet\\NuGet.Config",

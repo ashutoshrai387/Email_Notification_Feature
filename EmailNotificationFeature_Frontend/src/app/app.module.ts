@@ -1,18 +1,24 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule, provideClientHydration } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { EmailNotificationComponent } from './MyComponents/email-notification/email-notification.component';
+import { SignupComponent } from './MyComponents/signup/signup.component';
 
 @NgModule({
   declarations: [
-    AppComponent,EmailNotificationComponent
+    AppComponent,
+    SignupComponent
     
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    HttpClientModule,
   ],
   providers: [
     provideClientHydration()
