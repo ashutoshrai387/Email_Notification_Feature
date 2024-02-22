@@ -14,5 +14,21 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmailNotificationFeature.Controllers.PasswordResetController",
+    "Method": "SendPasswordResetEmail",
+    "RelativePath": "api/PasswordReset",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "EmailNotificationFeature.Models.PasswordResetDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

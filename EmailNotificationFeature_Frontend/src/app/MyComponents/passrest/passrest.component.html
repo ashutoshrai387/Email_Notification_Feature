@@ -1,0 +1,21 @@
+<h1>Password Reset</h1>
+<form (ngSubmit)="submitResetForm()">
+    <div class="mb-3"> 
+        <label for="pname" class="form-label">Name</label>
+        <input type="text" class="form-control" id="pname" name="pname" required>
+    </div>
+    <div class="mb-3"> 
+        <label for="email_id" class="form-label">Email Address</label>
+        <input type="email" class="form-control" id="email_id" name="email_id" [(ngModel)]="formData.email_id" required>
+    </div>
+    <div class="mb-3">
+        <label for="newpassword" class="form-label">New Password</label>
+        <input type="password" class="form-control" id="newpassword">
+    </div>
+    <div class="mb-3">
+        <label for="cpassword" class="form-label">Confirm Password</label>
+        <input type="password" class="form-control" id="cpassword">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
