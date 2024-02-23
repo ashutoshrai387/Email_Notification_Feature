@@ -2,6 +2,6 @@
 {
     public interface IPasswordResetService
     {
-        void SendPasswordResetEmail(PasswordResetDto request);
+        void SendPasswordResetEmail(PasswordResetDto data);
     }
 }

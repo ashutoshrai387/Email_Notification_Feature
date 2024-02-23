@@ -1,5 +1,11 @@
 global using EmailNotificationFeature.Services.EmailNotificationService;
 global using EmailNotificationFeature.Models;
+global using EmailNotificationFeature.Services;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +15,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IEmailNotificationService, EmailNotificationService>();
+builder.Services.AddScoped<IPasswordResetService, PasswordResetService>();
 
 var app = builder.Build();
 

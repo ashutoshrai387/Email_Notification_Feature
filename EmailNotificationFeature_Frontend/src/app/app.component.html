@@ -1,2 +1,6 @@
-<app-signup></app-signup>
-<app-passrest></app-passrest>
+<!-- <app-signup></app-signup>
+<app-passrest></app-passrest> -->
+
+<app-signup *ngIf="showComponent1" (buttonClick)="onComponent1ButtonClick()"></app-signup>
+<app-passrest *ngIf="!showComponent1" (buttonClick)="onComponent2ButtonClick()"></app-passrest>
+

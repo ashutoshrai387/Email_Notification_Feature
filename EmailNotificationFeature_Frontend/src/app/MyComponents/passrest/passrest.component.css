@@ -1,0 +1,51 @@
+/* Tile styles */
+.tile {
+    border: 1px solid #ccc; 
+    background-color: #a8a8a8;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px; 
+    width: 500px;
+}
+
+/* Form styles */
+.user-form {
+    background-color: #ad9898; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    margin-top: 20px; 
+    padding: 20px; 
+}
+
+.user-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.user-form input{
+    width: 100%;
+    padding: 8px; 
+    margin-bottom: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+}
+
+/* Button styles */
+.button { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btn {
+    padding: 8px 16px;
+    cursor: pointer; 
+    color: #fff;
+    border: none; 
+    border-radius: 4px; 
+    background-color: #0075e2;
+}
+
+.btn:hover {
+    background-color: #0055a5;
+}

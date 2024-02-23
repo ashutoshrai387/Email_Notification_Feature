@@ -2,7 +2,7 @@
 {
     public class PasswordResetDto
     {
-        public string email_id { get; set; }
-        // You can add additional properties here as needed for password reset
+        public string emailId { get; set; }
+        public string userName { get; set; }
     }
 }

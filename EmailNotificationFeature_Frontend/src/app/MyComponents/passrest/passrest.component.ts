@@ -1,5 +1,5 @@
 import { HttpClient } from '@angular/common/http';
-import { Component } from '@angular/core';
+import { Component, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-passrest',
@@ -8,19 +8,25 @@ import { Component } from '@angular/core';
 })
 
 export class PassrestComponent {
-  formData: any = {};
+  passData: any = {};
   constructor(private http:HttpClient) {}
-  submitResetForm() {
-    this.http.post<any>('hhttps://localhost:7214/api/PasswordReset', this.formData)
+  resetPass() {
+    this.http.post<any>('https://localhost:7214/api/PasswordReset', this.passData)
       .subscribe(
-        response => {
-          console.log('Registration successful:', response);
-          // Add any additional handling after successful registration
+        response => { 
+          console.log('Password Reset successful:', response);
+          window.alert('Password Reset Successful');
         },
         error => {
-          console.error('Registration failed:', error);
-          // Handle registration error
+          console.error('Password Reset failed:', error);
+          window.alert('Password Reset Failed');
         }
       );
+  }
+  
+  @Output() buttonClick: EventEmitter<void> = new EventEmitter<void>();
+
+  buttonClicked() {
+    this.buttonClick.emit();
   }
 }

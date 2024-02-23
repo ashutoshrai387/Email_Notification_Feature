@@ -18,10 +18,9 @@ namespace EmailNotificationFeature.Controllers
         }
 
         [HttpPost]
-        public IActionResult SendPasswordResetEmail([FromBody] PasswordResetDto request)
+        public IActionResult SendPasswordResetEmail([FromBody] PasswordResetDto data)
         {
-            // Assuming you have a method in your EmailNotificationService to handle password reset email
-            _passwordResetService.SendPasswordResetEmail(request);
+            _passwordResetService.SendPasswordResetEmail(data);
             return Ok();
         }
     }

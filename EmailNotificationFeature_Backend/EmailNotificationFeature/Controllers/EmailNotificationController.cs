@@ -18,9 +18,9 @@ namespace EmailNotificationFeature.Controllers
             _emailNotificationService = emailNotificationService;
         }
         [HttpPost]
-        public IActionResult SendEmail([FromBody] EmailDto request) 
+        public IActionResult SendEmail([FromBody] EmailDto data) 
         {
-            _emailNotificationService.SendEmail(request);
+            _emailNotificationService.SendEmail(data);
             return Ok();
         }
     }

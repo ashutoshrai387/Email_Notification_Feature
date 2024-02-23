@@ -1,5 +1,5 @@
 import { HttpClient } from '@angular/common/http';
-import { Component } from '@angular/core';
+import { Component, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-signup',
@@ -8,19 +8,25 @@ import { Component } from '@angular/core';
 })
 
 export class SignupComponent {
-  formData: any = {};
+  regData: any = {};
   constructor(private http:HttpClient) {}
-  submitForm() {
-    this.http.post<any>('https://localhost:7214/api/EmailNotification', this.formData)
+  signUp() {
+    this.http.post<any>('https://localhost:7214/api/EmailNotification', this.regData)
       .subscribe(
         response => {
           console.log('Registration successful:', response);
-          // Add any additional handling after successful registration
+          window.alert('Registration Successful');
         },
         error => {
           console.error('Registration failed:', error);
-          // Handle registration error
+          window.alert('Registration Failed');
         }
       );
   }
+
+  @Output() buttonClick: EventEmitter<void> = new EventEmitter<void>();
+  buttonClicked() {
+    this.buttonClick.emit();
+  }
+
 }
