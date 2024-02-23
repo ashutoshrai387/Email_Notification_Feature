@@ -9,10 +9,7 @@ namespace EmailNotificationFeature.Controllers
     [ApiController]
     public class EmailNotificationController : ControllerBase
     {
-
         private readonly IEmailNotificationService _emailNotificationService;
-
-
         public EmailNotificationController(IEmailNotificationService emailNotificationService)
         {
             _emailNotificationService = emailNotificationService;

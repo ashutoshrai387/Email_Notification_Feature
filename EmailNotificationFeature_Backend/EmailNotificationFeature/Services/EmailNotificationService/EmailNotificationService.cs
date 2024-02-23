@@ -31,22 +31,14 @@ namespace EmailNotificationFeature.Services.EmailNotificationService
             email.Subject = "Welcome Aboard";
 
             //Using the templates for email body
-            // Get the directory path where NotificationService.cs is located
             string serviceDirectory = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
-            // Combine with the path to the template folder and the template file name
             string templatePath = Path.Combine(serviceDirectory, "..", "..", "..", "Templates", "registration.html");
-            // Normalize the path to handle any relative path symbols
             templatePath = Path.GetFullPath(templatePath);
-            // Check if the file exists
             if (File.Exists(templatePath))
             {
-                // Read HTML template from file
                 string htmlTemplate = File.ReadAllText(templatePath);
-
-                // Replace placeholders in the template if needed
                 string replacedTemplate = htmlTemplate.Replace("{toNamePlaceholder}", receiverName);
 
-                // Set HTML content as the body of the email
                 email.Body = new TextPart(MimeKit.Text.TextFormat.Html)
                 {
                     Text = replacedTemplate

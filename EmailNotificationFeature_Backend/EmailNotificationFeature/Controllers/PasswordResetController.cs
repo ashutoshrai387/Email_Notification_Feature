@@ -11,7 +11,6 @@ namespace EmailNotificationFeature.Controllers
     public class PasswordResetController : ControllerBase
     {
         private readonly IPasswordResetService _passwordResetService;
-
         public PasswordResetController(IPasswordResetService passwordResetService)
         {
             _passwordResetService = passwordResetService;
